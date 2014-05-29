@@ -1,4 +1,4 @@
-package com.readability;
+package com.bttw.readability;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -11,7 +11,7 @@ import java.util.TreeMap;
  *
  */
 
-public class Liang {
+public class LiangSyllableCounter {
 
     
         
@@ -48,7 +48,7 @@ public class Liang {
         return treeMap;
     }
 
-    public static  double hyphenateWord(ArrayList<String> words) {
+    public static double hyphenateWord(ArrayList<String> words) {
 
         TreeMap map = convertPatterns();
 
