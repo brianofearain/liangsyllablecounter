@@ -1,0 +1,22 @@
+    
+    public class Launcher{
+    
+    
+    public static void main(String args[]){
+    
+    String text = args[0];
+    ArrayList<SentenceStats> listOfSentenceStats = new ArrayList();
+    String textTrimmed = text.trim();
+    String extraCharsRemoved = textTrimmed.replaceAll("[^A-Za-z0-9 ]", "");
+                String[] totalWords = extraCharsRemoved.toLowerCase().split("\\s+");
+                  ArrayList<String> wordList = new ArrayList<String>(Arrays.asList(totalWords));
+                   ArrayList<String> subWordList;
+                  if (wordList.size() < 100){
+                     liangSyllableCount =   Liang.hyphenateWord(wordList);
+                     isLessThan100 = true;
+                  }
+                  
+                  
+                  }
+                  
+                  }
