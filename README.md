@@ -6,4 +6,4 @@ liangsyllablecounter
 
 Instructions:
 ============
-1: Run Launcher with a sentence as an argument
+* Run Launcher with a sentence as an argument
