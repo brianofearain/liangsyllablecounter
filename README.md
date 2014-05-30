@@ -1,7 +1,8 @@
 liangsyllablecounter
 ====================
-Uses a modified version of Liang's hyphenation algorithm, ported to java.
-Hypenation patterns have been made already with patgen.
+* Uses a modified version of Liang's hyphenation algorithm, ported to java.
+* Hypenation patterns have been made already with patgen.
+
 
 Instructions:
 ============
